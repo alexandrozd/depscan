@@ -1,0 +1,38 @@
+{
+  "name": "depscan",
+  "version": "0.0.1",
+  "description": "Scan your TypeScript/React project for deprecated props usage",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": {
+    "name": "Aliaksandr Drozd",
+    "email": "itahmea@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "bin": {
+    "depscan": "./bin/depscan.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "deprecation",
+    "scanner",
+    "code-analysis"
+  ],
+
+  "dependencies": {
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
