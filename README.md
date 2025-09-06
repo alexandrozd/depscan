@@ -13,5 +13,5 @@ npm install --save-dev deprescan
 Run in your project root directory:
 
 ```bash
-deprescan
+npx deprescan
 ```
