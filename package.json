@@ -1,6 +1,6 @@
 {
   "name": "deprescan",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Scan your TypeScript/React project for deprecated props usage",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
   },
   "license": "Apache-2.0",
   "bin": {
-    "depscan": "./bin/depscan.js"
+    "depscan": "./bin/deprescan.js"
   },
   "scripts": {
     "build": "tsc",

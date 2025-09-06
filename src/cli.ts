@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { DeprecationScanner } from './depscan'
+import { DeprecationScanner } from './deprescan'
 
 function main() {
   try {

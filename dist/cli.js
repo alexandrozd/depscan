@@ -2,11 +2,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.main = main;
-const depscan_1 = require("./depscan");
+const deprescan_1 = require("./deprescan");
 function main() {
     try {
         console.log('🔍 Starting deprecation scan...');
-        const scanner = new depscan_1.DeprecationScanner();
+        const scanner = new deprescan_1.DeprecationScanner();
         const findings = scanner.scanProject();
         scanner.printFindings();
         if (findings.length) {
