@@ -1,11 +1,11 @@
-# DepScan
+# DepreScan
 
 🔍 Scan your TypeScript/React project for deprecated props usage.
 
 ## Installation
 
 ```bash
-npm install --save-dev depscan
+npm install --save-dev deprescan
 ```
 
 ## Usage
@@ -13,5 +13,5 @@ npm install --save-dev depscan
 Run in your project root directory:
 
 ```bash
-depscan
+deprescan
 ```
